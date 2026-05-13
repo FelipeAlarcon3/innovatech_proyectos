@@ -29,9 +29,10 @@ public class ProyectoController {
                 .orElse(ResponseEntity.notFound().build());
     }
 
-    @PostMapping("/{id}")
-    public Proyecto crear (@RequestBody Proyecto proyecto){
+    @PostMapping
+    public Proyecto crear(@RequestBody Proyecto proyecto) {
         return service.guardar(proyecto);
+
     }
 
     @PutMapping("/{id}")

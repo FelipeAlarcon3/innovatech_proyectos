@@ -15,7 +15,7 @@ public class Proyecto {
     private String nombre;
     private String descripcion;
     private String estado; // ACTIVO, PAUSADO, TERMINADO
-    private int avancePorcentaje; // KPI: % de avance
-    private int tareasCompletadas; // KPI
-    private int tareasTotales;
+    private Integer avancePorcentaje; // KPI: % de avance
+    private Integer tareasCompletadas; // KPI
+    private Integer tareasTotales;
 }
